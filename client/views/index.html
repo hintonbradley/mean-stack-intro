@@ -1,6 +1,6 @@
 <!-- Step 7: Create a basic html file to render for a basic index get request -->
 <!DOCTYPE html>
-<!-- Step 9: Creating an angular app via the app.js file (/client/js/app.js) -->
+<!-- Step 9.1: Creating an angular app via the app.js file (/client/js/app.js) -->
 <html ng-app="meetupApp"> 
   <head>
       <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <body>
 
       <!-- Meetups View -->
-      <!-- Step 11: Binding data from meetupsController to the view. -->
+      <!-- Step 12: Binding data from meetupsController to the view. -->
       <div ng-controller="meetupsController">
         <h1>There are {{meetups.length}} meetups</h1>
         <ul>
@@ -30,7 +30,7 @@
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
 
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-resource.js"></script>
-
+<!-- Step 9.3: Adding app.js script to the view (/client/js/app.js) -->
       <script type="text/javascript" src="/js/app.js"></script>
       
       <!-- Step 11: Including the controller script in the browser -->
