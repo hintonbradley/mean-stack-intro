@@ -1,3 +1,4 @@
+// Step 10: Create a controller
 app.controller('meetupsController', ['$scope', '$resource', function ($scope, $resource) {
 
 	var Meetup = $resource('/api/meetups');
