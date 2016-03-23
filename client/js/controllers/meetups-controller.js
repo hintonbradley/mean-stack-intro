@@ -4,6 +4,7 @@ app.controller('meetupsController', ['$scope', '$resource', function ($scope, $r
 // Step 15: Creating a way for the client to make requests to the model on the server side
 	var Meetup = $resource('/api/meetups');
 
+// Step 26: Finding all the meetups in the db
 	Meetup.query(function (results) {
 		$scope.meetups = results;
 	});

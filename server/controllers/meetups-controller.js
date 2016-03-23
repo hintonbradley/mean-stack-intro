@@ -10,7 +10,7 @@ module.exports.create = function (req, res) {
 	});
 }
 
-// Step 28: Creating ability to retrieve all meetups from the database
+// Step 28: Creating ability for the server to retrieve all meetups from the database
 module.exports.list = function (req, res) {
 	Meetup.find({}, function (err, results) {
 		res.json(results);
